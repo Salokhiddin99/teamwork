@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AQAA,AAAA,SAAS,AAAA,CACL,WAAW,CAAE,KAAK,CAUrB,AATI,AAAD,gBAAQ,AAAA,CACJ,WAAW,CAAC,QAAQ,CACpB,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,aAAa,CAAE,IAAI,CACnB,KAAK,CAAE,IAAI,CACX,UAAU,CAAE,MAAM,CACrB",
     "sources": [
         "../scss/main.scss",
         "../scss/_normailze.scss",
@@ -10,6 +10,7 @@
         "../scss/blocks/_container.scss",
         "../scss/blocks/_header.scss",
         "../scss/blocks/_footer.scss",
+        "../scss/blocks/_customers.scss",
         "../scss/_generals.scss"
     ],
     "names": [],
