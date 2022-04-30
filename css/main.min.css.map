@@ -11,6 +11,7 @@
         "../scss/blocks/_header.scss",
         "../scss/blocks/_footer.scss",
         "../scss/blocks/_customers.scss",
+        "../scss/blocks/_shopping-card.scss",
         "../scss/_generals.scss"
     ],
     "names": [],
