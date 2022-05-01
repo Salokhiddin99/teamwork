@@ -1,14 +1,15 @@
-.trending{
+.trending {
   margin-top: 200px;
-  &__title{
+
+  &__title {
     text-align: center;
     margin-bottom: 45px;
   }
 
-  &-version{
+  &-version {
     text-align: center;
-  
-    &__link{
+
+    &__link {
       display: inline-block;
       margin-left: 70px;
       text-decoration: none;
@@ -16,18 +17,14 @@
       @include text-version;
       margin-bottom: 73px;
 
-      &:hover{
+      &:hover {
         color: #7AC751;
         transition: 0.2s;
       }
 
-      &:first-child{
+      &:first-child {
         margin-left: 0;
       }
     }
-  
   }
-
-
-
 }
