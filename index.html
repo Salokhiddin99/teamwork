@@ -6,90 +6,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teamwork</title>
+    <!-- Google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+    <!-- Main css link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish:wght@600&family=Rubik&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
+
 <body>
     <header class="header">
         <div class="header__top">
             <div class="container">
                 <div class="header__first">
-                <div class="header__text">
-                    <a class="header--link" href="#">Welcome to our online shop</a>
+                    <div class="header__text">
+                        <a class="header--link" href="#">Welcome to our online shop</a>
+                    </div>
+                    <div class="header__login">
+                        <a class="header--link" href="#">English (USD)<i class="fa-solid fa-angle-down"></i></a>
+                        <div class="header__line"></div>
+                        <a class="header--link" href="#">Login or Sign up</a>
+                    </div>
                 </div>
-                <div class="header__login">
-                    <a class="header--link" href="#">English (USD)<i class="fa-solid fa-angle-down"></i></a>
-                    <div class="header__line"></div>
-                    <a class="header--link" href="#">Login or Sign up</a>
-                </div>
-                </div> 
-            </div> 
+            </div>
+        </div>
         <div class="header__middle">
             <div class="container">
                 <div class="header__second">
                     <a href="#" class="header--logo"><img src="./img/header_logo.png" alt="logo"></a>
-                   <div class="header__input">
-                    <input type="text" placeholder="Search here">
-                    <a class="header--btn" href="3">Categories<i class="fa-solid fa-angle-down"></a></i><img class="header--search" src="./img/search.png" alt="">
-                   </div>
-                   <div class="header__icons">
-                       <a class="header__icons--link" href="#"><img src="./img/middle_first.svg" alt=""></a>
-                       <a class="header__icons--link" href="#"><img src="./img/middle_two.svg" alt=""></a>
-                       <a class="header__icons--link" href="#"><img src="./img/middle_three.svg" alt=""></a>
-                   </div>
-                </div>
-            </div>
-        </div>
-        <div class="header__bottom">
-            <div class="container">
-                <div class="header__third">
-                    <div class="navbar">
-                            <a href="#" class="header__third--link1">ALL COLLECTIONS<img class="header__third--img" src="./img/menu 1.png" alt=""></a>
-                            <div class="dropdown_menu">
-                                <ul>
-                                    <li class="list"><a class="menu" href="#">All</a></li>
-                                    <li class="list"><a class="menu" href="#">New Arrivals</a></li>
-                                    <li class="list"><a class="menu" href="#">Hot Sale</a></li>
-                                    <li class="list"><a class="menu" href="#">Furniture</a></li>
-                                    <li class="list"><a class="menu" href="#">Amrature</a></li>
-                                    <li class="list"><a class="menu" href="#">Tabble</a></li>
-                                    <li class="list"><a class="menu" href="#">Chair</a></li>
-                                    <li class="list"><a class="menu" href="#">Sofa</a></li>
-                                    <li class="list"><a class="menu" href="#">Mirrors</a></li>
-                                    <li class="list"><a class="menu" href="#">Stools</a></li>
-                                    <li class="list"><a class="menu" href="#">Benches</a></li>
-                                </ul>
-                            </div>
+                    <div class="header__input">
+                        <input type="text" placeholder="Search here">
+                        <a class="header--btn" href="3">Categories<i class="fa-solid fa-angle-down"></a></i><img
+                            class="header--search" src="./img/search.png" alt="">
                     </div>
-                    <ul class="header--list">
-                        <li class="header--item">
-                            <a href="#" class="header__third--link">HOME</a>
-                        </li>
-                        <li class="header--item">
-                            <a href="#" class="header__third--link">SHOP</a>
-                        </li>
-                        <li class="header--item">
-                            <a href="#" class="header__third--link">BLOG</a>
-                        </li>
-                        <li class="header--item">
-                            <a href="#" class="header__third--link">ABOUT</a>
-                        </li>
-                        <li class="header--item">
-                            <a href="Tel: +998900000000" class="header__third--link">CONTACT US</a>
-                        </li>
-                    </ul>
+                    <div class="header__icons">
+                        <a class="header__icons--link" href="#"><img src="./img/middle_first.svg" alt=""></a>
+                        <a class="header__icons--link" href="#"><img src="./img/middle_two.svg" alt=""></a>
+                        <a class="header__icons--link" href="#"><img src="./img/middle_three.svg" alt=""></a>
+                    </div>
                 </div>
             </div>
+        </div>  
+        <div class="header__bottom">
+        <div class="container">
+            <div class="header__third">
+                <div class="navbar">
+                    <a href="#" class="header__third--link1">ALL COLLECTIONS<img class="header__third--img"
+                            src="./img/menu 1.png" alt=""></a>
+                    <div class="dropdown_menu">
+                        <ul>
+                            <li class="list"><a class="menu" href="#">All</a></li>
+                            <li class="list"><a class="menu" href="#">New Arrivals</a></li>
+                            <li class="list"><a class="menu" href="#">Hot Sale</a></li>
+                            <li class="list"><a class="menu" href="#">Furniture</a></li>
+                            <li class="list"><a class="menu" href="#">Amrature</a></li>
+                            <li class="list"><a class="menu" href="#">Tabble</a></li>
+                            <li class="list"><a class="menu" href="#">Chair</a></li>
+                            <li class="list"><a class="menu" href="#">Sofa</a></li>
+                            <li class="list"><a class="menu" href="#">Mirrors</a></li>
+                            <li class="list"><a class="menu" href="#">Stools</a></li>
+                            <li class="list"><a class="menu" href="#">Benches</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="header--list">
+                    <li class="header--item">
+                        <a href="#" class="header__third--link">HOME</a>
+                    </li>
+                    <li class="header--item">
+                        <a href="#" class="header__third--link">SHOP</a>
+                    </li>
+                    <li class="header--item">
+                        <a href="#" class="header__third--link">BLOG</a>
+                    </li>
+                    <li class="header--item">
+                        <a href="#" class="header__third--link">ABOUT</a>
+                    </li>
+                    <li class="header--item">
+                        <a href="Tel: +998900000000" class="header__third--link">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </div>
     </header>
 </body>
 
