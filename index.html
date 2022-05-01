@@ -6,32 +6,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teamwork</title>
+    <!-- Google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+    <!-- Main css link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish:wght@600&family=Rubik&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
+
 <body>
     <header class="header">
         <div class="header__top">
             <div class="container">
                 <div class="header__first">
-                <div class="header__text">
-                    <a class="header--link" href="#">Welcome to our online shop</a>
+                    <div class="header__text">
+                        <a class="header--link" href="#">Welcome to our online shop</a>
+                    </div>
+                    <div class="header__login">
+                        <a class="header--link" href="#">English (USD)<i class="fa-solid fa-angle-down"></i></a>
+                        <div class="header__line"></div>
+                        <a class="header--link" href="#">Login or Sign up</a>
+                    </div>
                 </div>
-                <div class="header__login">
-                    <a class="header--link" href="#">English (USD)<i class="fa-solid fa-angle-down"></i></a>
-                    <div class="header__line"></div>
-                    <a class="header--link" href="#">Login or Sign up</a>
+                <div class="header__middle">
+                    <div class="container">
+                        <div class="header__second">
+                            <a href="#" class="header--logo"><img src="./img/header_logo.png" alt="logo"></a>
+                            <div class="header__input">
+                                <input type="text" placeholder="Search here">
+                                <a class="header--btn" href="3">Categories<i class="fa-solid fa-angle-down"></a></i><img
+                                    class="header--search" src="./img/search.png" alt="">
+                            </div>
+                            <div class="header__icons">
+                                <a class="header__icons--link" href="#"><img src="./img/middle_first.svg" alt=""></a>
+                                <a class="header__icons--link" href="#"><img src="./img/middle_two.svg" alt=""></a>
+                                <a class="header__icons--link" href="#"><img src="./img/middle_three.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                </div> 
+                <div class="header__bottom">
+                    <div class="container">
+                        <div class="header__third">
+                            <div class="navbar">
+                                <a href="#" class="header__third--link1">ALL COLLECTIONS<img class="header__third--img"
+                                        src="./img/menu 1.png" alt=""></a>
+                                <div class="nav">
+                                    <input type="checkbox" id="navbar">
+                                    <label class="label" for="navbar">
+                                        <ul class="label--list">
+                                            <li class="label--item">
+                                                <a href="#" class="label--link">All</a>
+                                            </li>
+                                            <li class="label--item">
+                                                <a href="#" class="label--link">New Arrivals</a>
+                                            </li>
+                                            <li class="label--item">
+                                                <a href="#" class="label--link">Hot Sale</a>
+                                            </li>
+                                            <li class="label--item">
+                                                <a href="#" class="label--link">Furniture</a>
+                                            </li>
+                                            <li class="label--item">
+                                                <a href="#" class="label--link">Amrature</a>
+                                            </li>
+                                            <li class="label--item">
+                                                <a href="#" class="label--link">Tabble</a>
+                                            </li>
+                                            <li class="label--item">
+                                                <a href="#" class="label--link">Chair</a>
+                                            </li>
+                                            <li class="label--item">
+                                                <a href="#" class="label--link">Sofa</a>
+                                            </li>
+                                            <li class="label--item">
+                                                <a href="#" class="label--link">Mirrors</a>
+                                            </li>
+                                            <li class="label--item">
+                                                <a href="#" class="label--link">Stools</a>
+                                            </li>
+                                            <li class="label--item">
+                                                <a href="#" class="label--link">Benches</a>
+                                            </li>
+                                        </ul>
+                                    </label>
+                                </div>
+                            </div>
+                            <ul class="header--list">
+                                <li class="header--item">
+                                    <a href="#" class="header__third--link">HOME</a>
+                                </li>
+                                <li class="header--item">
+                                    <a href="#" class="header__third--link">SHOP</a>
+                                </li>
+                                <li class="header--item">
+                                    <a href="#" class="header__third--link">BLOG</a>
+                                </li>
+                                <li class="header--item">
+                                    <a href="#" class="header__third--link">ABOUT</a>
+                                </li>
+                                <li class="header--item">
+                                    <a href="Tel: +998900000000" class="header__third--link">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <section class="trending">
         <div class="container ">
             <h2 class="trending__title">TRENDING</h2>
@@ -61,37 +151,71 @@
                     What Our Customer Says
                 </h2>
             </div>
-            <div class="customer__info">
-                <img src="./images/customer.png" alt="girl" class="customer__img">
-                <p class="customer__text">
-                    I like Furniking.com and as compared to other company it's polices and customers support is very
-                    good easy to reach., also many time they unable to delivered. The ultricies are pregnant while the
-                    quis is suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist amet.
-                </p>
-                <h4 class="customer__subtitle">
-                    Angelina Joly
-                </h4>
-                <span class="customer__text-bottom">
-                    Co-founder
-                </span>
-            </div>
-        </div>
-        <div class="header__middle">
-            <div class="container">
-                <div class="header__second">
-                    <a href="#" class="header--logo"><img src="./img/header_logo.png" alt="logo"></a>
-                   <div class="header__input">
-                    <input type="text" placeholder="Search here">
-                    <a class="header--btn" href="3">Categories<i class="fa-solid fa-angle-down"></a></i><img class="header--search" src="./img/search.png" alt="">
-                   </div>
-                   <div class="header__icons">
-                       <a class="header__icons--link" href="#"><img src="./img/middle_first.svg" alt=""></a>
-                       <a class="header__icons--link" href="#"><img src="./img/middle_two.svg" alt=""></a>
-                       <a class="header__icons--link" href="#"><img src="./img/middle_three.svg" alt=""></a>
-                   </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="customer__info">
+                            <img src="./images/customer.png" alt="girl" class="customer__img">
+                            <p class="customer__text">
+                                I like Furniking.com and as compared to other company it's polices and customers support
+                                is very
+                                good easy to reach., also many time they unable to delivered. The ultricies are pregnant
+                                while the
+                                quis is suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist amet.
+                            </p>
+                            <h4 class="customer__subtitle">
+                                Angelina Joly
+                            </h4>
+                            <span class="customer__text-bottom">
+                                Co-founder
+                            </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="customer__info">
+                            <img src="./images/customer.png" alt="girl" class="customer__img">
+                            <p class="customer__text">
+                                I like Furniking.com and as compared to other company it's polices and customers support
+                                is very
+                                good easy to reach., also many time they unable to delivered. The ultricies are pregnant
+                                while the
+                                quis is suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist amet.
+                            </p>
+                            <h4 class="customer__subtitle">
+                                Angelina Joly
+                            </h4>
+                            <span class="customer__text-bottom">
+                                Co-founder
+                            </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="customer__info">
+                            <img src="./images/customer.png" alt="girl" class="customer__img">
+                            <p class="customer__text">
+                                I like Furniking.com and as compared to other company it's polices and customers support
+                                is very
+                                good easy to reach., also many time they unable to delivered. The ultricies are pregnant
+                                while the
+                                quis is suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist amet.
+                            </p>
+                            <h4 class="customer__subtitle">
+                                Angelina Joly
+                            </h4>
+                            <span class="customer__text-bottom">
+                                Co-founder
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="fa-solid fa-chevron-right customer__arrow"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fa-solid fa-chevron-left customer__arrow"></i>
                 </div>
             </div>
-        </div>
+      </div>
         <div class="header__bottom">
             <div class="container">
                 <div class="header__third">
@@ -116,9 +240,98 @@
                         </li>
                     </ul>
                 </div>
+    </section>
+    <section class="articles">
+        <div class="container">
+            <h2 class="customer__title articles__title">
+                Our Latest Articles
+            </h2>
+            <div class="articles__inner">
+                <article class="articles-card">
+                    <div class="articles-card__box">
+                        <span class="articles-card__btn">
+                            <img src="./images/ticket.svg" alt="ticket">
+                            Furniture
+                        </span>
+                        <span class="articles-card__year">
+                            23 September 2022
+                        </span>
+                    </div>
+                    <h4 class="articles-card__title">
+                        Begineer guide buying minimal sofa
+                    </h4>
+                    <a href="#" class="articles-card__link">
+                        Read more
+                    </a>
+                </article>
+                <article class="articles-card articles-card__2">
+                    <div class="articles-card__box">
+                        <span class="articles-card__btn">
+                            <img src="./images/ticket.svg" alt="ticket">
+                            Table
+                        </span>
+                        <span class="articles-card__year">
+                            23 September 2022
+                        </span>
+                    </div>
+                    <h4 class="articles-card__title">
+                        Buying best minimal computer table
+                    </h4>
+                    <a href="#" class="articles-card__link">
+                        Read more
+                    </a>
+                </article>
+                <article class="articles-card articles-card__3">
+                    <div class="articles-card__box">
+                        <span class="articles-card__btn">
+                            <img src="./images/ticket.svg" alt="ticket">
+                            Bench
+                        </span>
+                        <span class="articles-card__year">
+                            23 march 2022
+                        </span>
+                    </div>
+                    <h4 class="articles-card__title">
+                        How to choose best modern bench
+                    </h4>
+                    <a href="#" class="articles-card__link">
+                        Read more
+                    </a>
+                </article>
+                <article class="articles-card articles-card__4">
+                    <div class="articles-card__box">
+                        <span class="articles-card__btn">
+                            <img src="./images/ticket.svg" alt="ticket">
+                            Chair
+                        </span>
+                        <span class="articles-card__year">
+                            23 march 2022
+                        </span>
+                    </div>
+                    <h4 class="articles-card__title">
+                        Best Summer Outfit Style in this Country
+                    </h4>
+                    <a href="#" class="articles-card__link">
+                        Read more
+                    </a>
+                </article>
             </div>
+
+            
         </div>
-    </header>
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
