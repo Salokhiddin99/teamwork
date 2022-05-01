@@ -1,5 +1,5 @@
 .trending{
-
+  margin-top: 200px;
   &__title{
     text-align: center;
     margin-bottom: 45px;
@@ -27,8 +27,6 @@
     }
   
   }
-
-
   &-box{
     @include flex;  
     flex-wrap: wrap;
@@ -140,7 +138,6 @@ margin-bottom: 100px;
   &:first-child{
     margin-left: 0;
   }
-
 }
 
 }
