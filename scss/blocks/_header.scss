@@ -37,7 +37,7 @@
     &--search{
         position: absolute;
         top: 1px;
-        left: 505px;
+        left: 510px;
         padding: 16px;
         background-color: $basic-green;
         border-top-right-radius: 8px;
@@ -54,7 +54,7 @@
         line-height: 17px;
         padding: 18px 15px 10px 10px;
         border-left: 1.5px solid rgba(227, 227, 227, 0.78);
-        margin-top: 1.5px;
+        margin-top: 2px;
     }
     &__input{
         position: relative;
@@ -64,7 +64,7 @@
         padding-left: 25px;
     }
     &__bottom{
-        max-width: 100%;
+        width: 100%;
         background-color: $nav-bg;
     }
     &__third{
@@ -77,7 +77,7 @@
         padding-left: 82px;
     }
     &--item{
-        padding-right: 58px;
+        padding-right: 55px;
     }
     &__third--link1{
         color: $basic-white;
@@ -94,7 +94,7 @@
     }
     &__third--img{
         position: absolute;
-        top: 15px;
+        top: 20px;
         left: 35px;
     }
 }
@@ -116,7 +116,7 @@ input{
         font-size: 16px;
         line-height: 19px;
         color: $basic-white;
-        
+        position: relative;
         padding: 25px 50px 18px 70px;
         align-items:center;
 }
@@ -133,5 +133,31 @@ input{
 }
 .nav{
     display: none;
+}
+.dropdown_menu{
+    display: none;
+    height: 450px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: #F7F8FA;
+}
+.navbar:hover .dropdown_menu{
+    display: block;
+    transition: 0.2s
+}
+.menu{
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: $text-color;
+    
+}
+.list{
+    width: 262px;
+    border-top: 1px solid #E3E3E3;
+    padding: 10px 0 10px 38px;
 }
 
