@@ -1,0 +1,25 @@
+@mixin text-version {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@mixin text-name {
+  font-style: 20px;
+  font-weight: 400;
+}
+
+@mixin brand-name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+@mixin text-cost {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
