@@ -1,12 +1,93 @@
+html,
+body {
+    position: relative;
+}
+
 .customer{
     padding-top: 120px;
     &__title{
-        font-family:'Mulish';
+        font-family: 'Mulish', sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 45px;
-        margin-bottom: 50px;
         color: #555;
         text-align: center;
     }
+    &__info{
+        background-color: #F8FAFB;
+        width: 100%;
+        max-width: 816px;
+        height: 312px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 90px;
+        border-radius: 8px;
+    }
+    &__img{
+        margin-top: -44px;
+        margin-bottom: 32px;
+    }
+    &__text{
+        font-family: 'DM Sans', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.005px;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 566px;
+        color: #515151;
+    }
+    &__subtitle{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.005px;
+        color: #555;
+        margin-top: 32px;
+    }
+    &__text-bottom{
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.005px;
+        margin-top:8px;
+        color: #515151;
+    }
+    &__arrow{
+        font-size:35px;
+        color: #CCCCCC;
+    }
 }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-button-next:after,.swiper-button-prev:after {
+    content: '';
+}
+.swiper-button-next{
+    right:100px;
+}
+.swiper-button-prev{
+    left: 100px;
+}
+
