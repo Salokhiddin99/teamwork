@@ -53,6 +53,15 @@
         position: absolute;
         left: 1px;
         top: 1px;
+
+        &-change{
+          background-color: rgba(122, 199, 81, 1);
+        }
+
+        &-change1{
+          background-color: #FF6868;
+        }
+
       }
       
       &-icons{
@@ -73,7 +82,8 @@
           
           &:hover{
             transform: scale(1.2);
-          }
+            background-color: rgba(122, 199, 81, 1);
+            }
 
         }
         
