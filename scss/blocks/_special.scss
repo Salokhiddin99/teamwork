@@ -1,0 +1,122 @@
+.special{
+  margin-bottom: 120px;
+  
+  &__title{
+    text-align: center;
+    font-size: 36px;
+    color: #555555;
+    font-weight: 700;
+    margin-bottom: 60px;
+  }
+
+
+  &-box{
+    @include flex;
+
+
+   &_card1{
+     margin-left: 30px;
+     width: 570px;
+     position: relative;
+    background-image: url('/img/special/Rectangle\ 43.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 28px 0 29px 24px ;
+
+    &:first-child{
+      margin-left: 0;
+    }
+
+    &__title{
+      font-weight: 600;
+      font-size: 22px;
+      color: #555555;
+      margin-bottom: 11px ;
+    }
+
+    &__text{
+      font-size: 12px;
+      width: 227px;
+      color: #757575;
+      margin-bottom: 20px;
+    }
+
+    &__cost{
+      color: #7AC751;
+      font-size: 18px;
+      margin-right: 7px;
+      font-weight: 700;
+    }
+    
+    &__nocost{
+      font-size: 18px;
+      margin-right: 19px;
+      font-weight: 600;
+      color: #CCCCCC;
+    }
+
+    &__link{
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background-color: #7AC751;
+      padding: 7px 10px;
+      border-radius: 2px;
+    }
+
+    &-circles{
+      margin-top: 31px;
+      @include flex;
+    }
+
+    &-circle{
+      margin-left: 20px;
+      background-color: #7AC751;
+      color: white;
+      border-radius: 50%;
+      padding: 4.67px   9px 6.78px 9px;
+
+      &:first-child{
+        margin-left: 0;
+      }
+
+      &__bold{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Rubik';
+      }
+
+      &__date{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 6px;
+        text-align: center;
+      }
+
+    }  
+
+    &__rebate{
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #00B7F1;
+      display: inline-block;
+      color: white;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 5px 7.48px 4.2px 8px;
+      border-radius: 0px 0px 0px 5px;
+    }
+
+  } 
+
+  &_card2{
+    background-image: url('/img/special/Rectangle\ 44.png');
+  }
+
+
+  }
+}
+
+
