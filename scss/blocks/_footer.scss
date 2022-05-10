@@ -1,0 +1,75 @@
+.footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &-start {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        &__title {
+            max-width: 350px;
+            color: $text-color;
+            font-size: 16px;
+            line-height: 30px;
+        }
+        &__text {
+            font-size: 20px;
+            color: $text-color;
+            text-transform: capitalize;
+        }
+    }
+    &-icon {
+        display: flex;
+        align-items: center;
+        &__link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35px;
+            height: 35px;
+            margin: 10px;
+            font-size: 20px;
+            color: $text-color;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            &:hover {
+                border: 1px solid $basic-green;
+                color: $basic-green;
+            }
+        }
+    }
+    &-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &-link {
+        color: $text-color;
+        font-size: 16px;
+        line-height: 36px;
+        text-transform: capitalize;
+    }
+    &-end {
+        padding: 40px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__title {
+            color: $text-color;
+        }
+        &__list {
+            display: flex;
+        }
+        &__link {
+            margin-left: 53px;
+            color: $text-color;
+        }
+    }
+}
+.line {
+    margin-top: 50px;
+    width: 100%;
+    height: 1px;
+    background-color: $text-color;
+}
