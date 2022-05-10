@@ -27,21 +27,22 @@
       }
     }
   }
-  &-box{
-    @include flex;  
+
+  &-box {
+    @include flex;
     flex-wrap: wrap;
     justify-content: space-between;
-   
-    &_card{
+
+    &_card {
       position: relative;
       margin-bottom: 65px;
 
-      &:hover>.trending-box_card-icons{
-          visibility: visible;
+      &:hover>.trending-box_card-icons {
+        visibility: visible;
       }
 
-      &__link{
-        color: #fff;        
+      &__link {
+        color: #fff;
         font-size: 12px;
         font-weight: 600;
         background-color: #00B7F1;
@@ -52,15 +53,15 @@
         left: 1px;
         top: 1px;
       }
-      
-      &-icons{
+
+      &-icons {
         visibility: hidden;
         position: absolute;
-        left: 223px; 
+        left: 223px;
         top: 91px;
-        
-        
-        &__icon{
+
+
+        &__icon {
           @include flex;
           margin-top: 8px;
           justify-content: center;
@@ -68,173 +69,175 @@
           border-radius: 50%;
           width: 38px;
           height: 38px;
-          
-          &:hover{
+
+          &:hover {
             transform: scale(1.2);
           }
 
         }
-        
+
 
       }
-     
-      
-      &-headings{
 
-        &__fname{
-          display: inline-block; 
+
+      &-headings {
+
+        &__fname {
+          display: inline-block;
           font-size: 14px;
           text-transform: uppercase;
           color: rgba(117, 117, 117, 0.71);
           margin-bottom: 9px;
         }
 
-        &__name{
+        &__name {
           font-family: 'Rubik';
           font-size: 20px;
           margin-bottom: 8px;
         }
 
-        &__cost{
+        &__cost {
           color: rgba(122, 199, 81, 1);
           font-size: 18px;
           font-weight: 700;
           margin-right: 7px;
         }
 
-        &__nocost{
+        &__nocost {
           color: rgba(204, 204, 204, 1);
           font-size: 18px;
           font-weight: 700;
-          margin-right: 90px;  
+          margin-right: 90px;
         }
 
-        &__stars{
+        &__stars {
           position: relative;
           display: inline-block;
           top: -2px;
         }
-  &-box{
-    @include flex;  
-    flex-wrap: wrap;
-    justify-content: space-between;
-   
-    &_card{
-      position: relative;
-      margin-bottom: 65px;
 
-      &:hover>.trending-box_card-icons{
-          visibility: visible;
-      }
-
-      &__link{
-        color: #fff;        
-        font-size: 12px;
-        font-weight: 600;
-        background-color: #00B7F1;
-        text-decoration: none;
-        padding: 1px 8.5px 2.5px 9px;
-        border-radius: 0 0 5px 0;
-        position: absolute;
-        left: 1px;
-        top: 1px;
-
-        &-change{
-          background-color: rgba(122, 199, 81, 1);
-        }
-
-        &-change1{
-          background-color: #FF6868;
-        }
-
-      }
-      
-      &-icons{
-        visibility: hidden;
-        position: absolute;
-        left: 223px; 
-        top: 91px;
-        
-        
-        &__icon{
+        &-box {
           @include flex;
-          margin-top: 8px;
-          justify-content: center;
-          background-color: #fff;
-          border-radius: 50%;
-          width: 38px;
-          height: 38px;
-          
-          &:hover{
-            transform: scale(1.2);
-            background-color: rgba(122, 199, 81, 1);
+          flex-wrap: wrap;
+          justify-content: space-between;
+
+          &_card {
+            position: relative;
+            margin-bottom: 65px;
+
+            &:hover>.trending-box_card-icons {
+              visibility: visible;
             }
 
+            &__link {
+              color: #fff;
+              font-size: 12px;
+              font-weight: 600;
+              background-color: #00B7F1;
+              text-decoration: none;
+              padding: 1px 8.5px 2.5px 9px;
+              border-radius: 0 0 5px 0;
+              position: absolute;
+              left: 1px;
+              top: 1px;
+
+              &-change {
+                background-color: rgba(122, 199, 81, 1);
+              }
+
+              &-change1 {
+                background-color: #FF6868;
+              }
+
+            }
+
+            &-icons {
+              visibility: hidden;
+              position: absolute;
+              left: 223px;
+              top: 91px;
+
+
+              &__icon {
+                @include flex;
+                margin-top: 8px;
+                justify-content: center;
+                background-color: #fff;
+                border-radius: 50%;
+                width: 38px;
+                height: 38px;
+
+                &:hover {
+                  transform: scale(1.2);
+                  background-color: rgba(122, 199, 81, 1);
+                }
+
+              }
+
+
+            }
+
+
+            &-headings {
+
+              &__fname {
+                display: inline-block;
+                font-size: 14px;
+                text-transform: uppercase;
+                color: rgba(117, 117, 117, 0.71);
+                margin-bottom: 9px;
+              }
+
+              &__name {
+                font-family: 'Rubik';
+                font-size: 20px;
+                margin-bottom: 8px;
+              }
+
+              &__cost {
+                color: rgba(122, 199, 81, 1);
+                font-size: 18px;
+                font-weight: 700;
+                margin-right: 7px;
+              }
+
+              &__nocost {
+                color: rgba(204, 204, 204, 1);
+                font-size: 18px;
+                font-weight: 700;
+                margin-right: 90px;
+              }
+
+              &__stars {
+                position: relative;
+                display: inline-block;
+                top: -2px;
+              }
+            }
+
+
+          }
+
         }
-        
+
 
       }
-     
-      
-      &-headings{
 
-        &__fname{
-          display: inline-block; 
-          font-size: 14px;
-          text-transform: uppercase;
-          color: rgba(117, 117, 117, 0.71);
-          margin-bottom: 9px;
-        }
 
-        &__name{
-          font-family: 'Rubik';
-          font-size: 20px;
-          margin-bottom: 8px;
-        }
+      .circle-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
 
-        &__cost{
-          color: rgba(122, 199, 81, 1);
-          font-size: 18px;
-          font-weight: 700;
-          margin-right: 7px;
-        }
+        &>img {
+          margin-left: 14px;
 
-        &__nocost{
-          color: rgba(204, 204, 204, 1);
-          font-size: 18px;
-          font-weight: 700;
-          margin-right: 90px;  
-        }
-
-        &__stars{
-          position: relative;
-          display: inline-block;
-          top: -2px;
+          &:first-child {
+            margin-left: 0;
+          }
         }
       }
-
-    
     }
-    
   }
-  
-  
-}
-
-
-.circle-box{
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 100px;
-
-&>img{
-  margin-left: 14px;
-
-  &:first-child{
-    margin-left: 0;
-  }
-}
-
-}
 }
