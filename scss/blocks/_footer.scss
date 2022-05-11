@@ -49,6 +49,9 @@
         font-size: 16px;
         line-height: 36px;
         text-transform: capitalize;
+        &:hover {
+            color: $basic-green;
+        }
     }
     &-end {
         padding: 40px 0;
@@ -64,6 +67,9 @@
         &__link {
             margin-left: 53px;
             color: $text-color;
+            &:hover {
+                color: $basic-green;
+            }
         }
     }
 }
